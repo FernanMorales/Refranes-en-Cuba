@@ -1,0 +1,110 @@
+/**
+ * ----------------------------------------------------------------------------
+ * toggleElements.css - Stylesheet for jQuery-Plugin toggleElements
+ * ----------------------------------------------------------------------------
+ */
+
+ /* Screen ------------------------------------------------------------------- */
+
+@media projection, screen {
+
+	/* Toggler2 - example simple style */
+	.toggler2 {
+	cursor:pointer;
+	text-decoration: none;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #999;
+	font-size: 8pt;
+	display: block;
+	border:solid 1px #000;
+	padding:5px;
+	background-color: #1f1f1f;
+	text-align: center;
+	margin-top: 10px;
+	margin-right: 18px;
+	margin-bottom: 15px;
+	margin-left: 0;
+	}
+	
+	.toggler2-closed {
+	color:#666;
+	background-color: #1f1f1f;
+	padding-left: 10px;
+	height: 15px;
+	text-decoration: none;
+	border: solid 1px #000;
+	}
+	
+	.toggler2-closed:hover {
+	color: #2e5cff;
+	padding-left:10px;
+	height: 15px;
+	text-decoration: none;
+	background-color: #1f1f1f;
+	border: solid 1px #2e5cff;
+	background-repeat: no-repeat;
+	}
+	.toggler2-opened {
+	color:#FFF;
+	padding-left:10px;
+	height: 15px;
+	text-decoration: none;
+	background-color: #1f1f1f;
+	border: 1px solid #000;
+	background-repeat: no-repeat;
+	}
+	.toggler2-opened:hover {
+	color: #2e5cff;
+	padding-left:10px;
+	height: 15px;
+	text-decoration: none;
+	background-color: #1f1f1f;
+	border: solid 1px #2e5cff;
+	background-repeat: no-repeat;
+	}
+
+	/* Container */
+	.toggler2-c {
+	}
+	.toggler2-c-closed {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 15px;
+	margin-left: 0px;
+	font-size: 8pt;
+	text-align: left;
+	}
+	.toggler2-c-opened {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 30px;
+	margin-left: 0px;
+	font-size: 8pt;
+	text-align: left;
+	}
+	
+	
+	a.toggler2, a:hover.toggler2 {
+	text-decoration: none;
+	}
+	
+	a.toggler2 {
+	color: #666;
+	}
+	
+	a.toggler2-opened {
+	color: #999;
+	}
+	
+	a:hover.toggler2 {
+	color: #2e5cff;
+	}
+}
+
+/* Print -------------------------------------------------------------------- */
+@media print {
+
+	.toggler2-c { margin-bottom:25px; }
+	.toggler2 { display: none; }
+	
+}

@@ -1,0 +1,80 @@
+/**
+ * ----------------------------------------------------------------------------
+ * toggleElements.css - Stylesheet for jQuery-Plugin toggleElements
+ * ----------------------------------------------------------------------------
+ */
+
+ /* Screen ------------------------------------------------------------------- */
+
+@media projection, screen {
+
+	/* Toggler2 - example simple style */
+	.toggler2 {
+	cursor:pointer;
+	text-decoration: none;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	font-size: 8pt;
+	display: block;
+	border:solid 1px #d4d4d4;
+	padding:5px;
+	font-weight: bold;
+	background-color: #d4d4d4;
+	text-align: left;
+	margin-top: 10px;
+	margin-right: 0;
+	margin-bottom: 10px;
+	margin-left: 0;
+	}
+	
+	.toggler2-closed:hover {
+	border: 1px solid #2e5cff;
+	}
+	
+	.toggler2-opened:hover {
+		border: 1px solid #2e5cff;
+	}
+
+	/* Container */
+	.toggler2-c {
+	}
+	.toggler2-c-closed {
+	margin-top: -10px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 0px;	
+	padding: 10px;
+	font-size: 8pt;
+	text-align: left;
+	}
+	.toggler2-c-opened {
+	margin-top: -10px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding: 10px;
+	font-size: 8pt;
+	text-align: left;
+	}
+	
+	a.toggler2, a:hover.toggler2 {
+	text-decoration: none;
+	}
+	
+	a.toggler2 {
+	color: #333;
+	}
+	
+	a:hover.toggler2 {
+	color: #2e5cff;
+	}
+}
+
+/* Print -------------------------------------------------------------------- */
+@media print {
+
+	.toggler2-c { margin-bottom:25px; }
+	.toggler2 { display: none; }
+	
+}
